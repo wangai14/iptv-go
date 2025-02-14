@@ -1,7 +1,7 @@
 # iptv-go
 这是一个通过Vercel部署Golang脚本实现 YouTube、虎牙、斗鱼、YY、抖音、BiliBili等直播通过m3u文件或播放器直接播放的项目
 
-使用 [Vercel](https://vercel.com/) 部署 [https://github.com/ansoncloud8/iptv-go](https://github.com/ansoncloud8/iptv-go) 的 [Golang脚本](https://github.com/ansoncloud8/iptv-go/tree/main/liveurls)
+使用 [Vercel](https://vercel.com/) 部署 [https://github.com/amclubs/iptv-go](https://github.com/amclubs/iptv-go) 的 [Golang脚本](https://github.com/amclubs/iptv-go/tree/main/liveurls)
 
 
 ## 一、部署
@@ -10,7 +10,7 @@
 
 点击下方按钮一键部署，还没注册的可以选择github登陆然后绑定手机即可
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ansoncloud8/iptv-go)
+[![Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/amclubs/iptv-go)
 
 新版vercel新建项目默认是node20.x的环境会提示部署失败，虽然加了`package.json`指定为18.x但是貌似没用，如果遇到部署失败的先去设置修改node为18.x
 ![Vercel设置Nodejs环境](.github/asserts/nodejs.png)
